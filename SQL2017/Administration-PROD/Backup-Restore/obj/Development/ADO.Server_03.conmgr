@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ADO Server_03"
+  DTS:DTSID="{C458C274-3AAE-4FA8-97E6-7C9704001B6C}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Database_Name_03]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_03]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_03]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_03]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=npSDBS103;User ID=SQLMgtApp;Initial Catalog=MSDB;Persist Security Info=True;Application Name=SSIS-Backup-Restore-{C458C274-3AAE-4FA8-97E6-7C9704001B6C}npSDBS043.KFBSQLMgmt_DEV.SQLMgtApp1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb5IAFexLAUGAbwKvU4j3bAAAAAACAAAAAAADZgAAwAAAABAAAADrVmxnS4TjOBbvxDn4s7XdAAAAAASAAACgAAAAEAAAAEY3+kHxFY3C6P8Cu1V8g5WAAAAA/6As/ZOblGKy42tiQEO0ebESH4+Pv6++Ydm8i2Ck9Y3J3RLqyVM7PlBQaC6GDVuG+RBKSuQBF+0WTbJAGvgWAPr7kS2NTOK3NFfJL4mNMA0iqoOhRV9jry3pfrHN9H8DgwY02aHDrn5TAr38mfHqhrwslroQkCzlzh+RN5RszSAUAAAA1ODnzNYBpDq5GRI4BsOOCW3bmBA=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

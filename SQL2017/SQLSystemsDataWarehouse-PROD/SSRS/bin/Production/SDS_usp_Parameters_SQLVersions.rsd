@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>KFBSQLMgmt</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@pSQLMajorVersions">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>AnsiString</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>rpt.usp_Parameters_SQLVersions</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="SQLMajorMinorVersion">
+        <DataField>SQLMajorMinorVersion</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SQLVersionDescription">
+        <DataField>SQLVersionDescription</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DatabaseCompatibilityLevel">
+        <DataField>DatabaseCompatibilityLevel</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="CurrentSPorCUBuild">
+        <DataField>CurrentSPorCUBuild</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="CurrentInterimBuild">
+        <DataField>CurrentInterimBuild</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="LatestUpdateDt">
+        <DataField>LatestUpdateDt</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="KBArticle">
+        <DataField>KBArticle</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="KBArticleURL">
+        <DataField>KBArticleURL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SourceURL">
+        <DataField>SourceURL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

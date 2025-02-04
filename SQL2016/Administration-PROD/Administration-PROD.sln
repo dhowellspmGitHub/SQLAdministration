@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Maintenance", "Maintenance\Maintenance.dtproj", "{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Backup-Restore", "Backup-Restore\Backup-Restore.dtproj", "{53C92ABD-318D-49BE-9A8C-826CF03705B3}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Backup-Restore-PackageModel", "Backup-Restore-PackageModel\Backup-Restore-PackageModel.dtproj", "{E31EB140-3092-4658-836D-B04FBD200A14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Production|Default = Production|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Debug|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Debug|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.DebugLocal|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.DebugLocal|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Development|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Development|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Production|Default.ActiveCfg = Production
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Production|Default.Build.0 = Production
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Release|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Release|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Debug|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Debug|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.DebugLocal|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.DebugLocal|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Development|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Development|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Production|Default.ActiveCfg = Production
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Production|Default.Build.0 = Production
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Release|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Release|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Debug|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Debug|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.DebugLocal|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.DebugLocal|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Development|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Development|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Production|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Production|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Release|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Release|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68EC81C0-4367-44A5-B7F9-1A5A2ABCFBED}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sspt250:8080/tfs/dtech
+		SccProjectUniqueName0 = Maintenance\\Maintenance.dtproj
+		SccProjectName0 = Maintenance
+		SccLocalPath0 = Maintenance
+		SccProjectUniqueName1 = Backup-Restore\\Backup-Restore.dtproj
+		SccProjectName1 = Backup-Restore
+		SccLocalPath1 = Backup-Restore
+		SccProjectUniqueName2 = Backup-Restore-PackageModel\\Backup-Restore-PackageModel.dtproj
+		SccProjectName2 = Backup-Restore-PackageModel
+		SccLocalPath2 = Backup-Restore-PackageModel
+		SccLocalPath3 = .
+	EndGlobalSection
+EndGlobal

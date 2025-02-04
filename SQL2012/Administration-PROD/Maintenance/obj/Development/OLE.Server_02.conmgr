@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
+  DTS:ObjectName="OLE.Server_02"
+  DTS:DTSID="{DF2FAA84-3FB0-44BC-90FB-DB3CC6D0AAE8}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Database_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_02]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=SDBS267;User ID=SQLMgtApp;Initial Catalog=master;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Databases_Maintenance_Statistics_Update-{DF2FAA84-3FB0-44BC-90FB-DB3CC6D0AAE8}SDBS230.msdb.SSISSysAdmin;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkBMfIH14S024L/LPXEOb7gAAAAACAAAAAAADZgAAwAAAABAAAABYD7swVC93/FHYY5VlQ6vXAAAAAASAAACgAAAAEAAAAHmSnNMO7qC9OYfWzNGSnyiAAAAAio1rdDpSYsHwvEnrDgpdH2CEvaYNPYRvFBlj275hdrJCK4n7JmIgqzeR3g3TH/kA2xN6c78mjRROerLormJMmTZsc47bRy8cVVP0Hhr/3kcpHT+oicClw7ceAKz8cTChBU2zGl1BNOLMJrOehLLs7SVQujJev5+VcW+DArpHkLkUAAAACpFTLI/pF25kGMj4TEy1+M2zVYg=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

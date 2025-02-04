@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[ExcessOfLossReinsurance] (
+    [ExcessOfLossReinsuranceId] INT             NOT NULL,
+    [ReportingAmt]              DECIMAL (18, 2) NULL,
+    [CostTypeId]                INT             NULL,
+    [CostCategoryId]            INT             NULL,
+    [AdjustmentInd]             CHAR (1)        NULL,
+    [ReinsuranceRecoveryCd]     INT             NULL,
+    [CommentsTxt]               VARCHAR (255)   NULL,
+    [ClaimAmt]                  DECIMAL (18, 2) NULL,
+    [ExchangeRateNbr]           INT             NULL,
+    [SubTypeId]                 INT             NULL,
+    [ConversionInd]             CHAR (1)        NULL,
+    [BatchCycleDt]              DATE            NULL,
+    [ClaimUserCreateTime]       DATETIME2 (7)   NOT NULL,
+    [ClaimUserCreatedId]        CHAR (8)        NOT NULL,
+    [ClaimUserUpdatedId]        CHAR (8)        NOT NULL,
+    [ClaimUpdatedTmstmp]        DATETIME2 (7)   NOT NULL,
+    [CurrentRecordInd]          BIT             NOT NULL,
+    [UpdatedTmstmp]             DATETIME2 (7)   NOT NULL,
+    [UserUpdatedId]             CHAR (8)        NOT NULL,
+    [LastActionCd]              CHAR (1)        NOT NULL,
+    [SourceSystemCd]            CHAR (2)        NOT NULL,
+    [SourceSystemId]            INT             NOT NULL,
+    [RetiredInd]                CHAR (1)        NOT NULL,
+    CONSTRAINT [PK_ExcessOfLossReinsurance] PRIMARY KEY CLUSTERED ([ExcessOfLossReinsuranceId] ASC) ON [CLAIMSCD]
+) ON [CLAIMSCD];
+

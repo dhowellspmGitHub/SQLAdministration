@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LDAP.KYFB"
+  DTS:DTSID="{37D0366F-067F-458C-A4FD-E4B1991D6286}"
+  DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::AD_Server_Name_01]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=KFBAD;Provider=ADsDSOObject;Encrypt Password=True;Integrated Security=SSPI;Mode=Read;Bind Flags=0;ADSI Flag=-2147483648;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

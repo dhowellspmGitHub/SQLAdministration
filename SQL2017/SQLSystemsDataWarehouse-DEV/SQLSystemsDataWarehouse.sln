@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "KFBSQLMgmt", "SSIS\KFBSQLMgmt.dtproj", "{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "KFBSQLMgmt-Reports", "SSRS\KFBSQLMgmt-Reports.rptproj", "{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sspt250:8080/tfs/dtech
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SSIS\\KFBSQLMgmt.dtproj
+		SccProjectName1 = SSIS
+		SccLocalPath1 = SSIS
+		SccProjectUniqueName2 = SSRS\\KFBSQLMgmt-Reports.rptproj
+		SccProjectName2 = SSRS
+		SccLocalPath2 = SSRS
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Production|Default = Production|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Debug|Default.ActiveCfg = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Debug|Default.Build.0 = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.DebugLocal|Default.ActiveCfg = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.DebugLocal|Default.Build.0 = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Development|Default.ActiveCfg = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Development|Default.Build.0 = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Development|Default.Deploy.0 = Development
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Production|Default.ActiveCfg = Production
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Production|Default.Build.0 = Production
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Production|Default.Deploy.0 = Production
+		{9A8DB266-3AE6-4D90-AB8E-450F8EF90046}.Release|Default.ActiveCfg = Production
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Debug|Default.ActiveCfg = DebugLocal
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Debug|Default.Build.0 = DebugLocal
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Debug|Default.Deploy.0 = DebugLocal
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.DebugLocal|Default.Build.0 = DebugLocal
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.DebugLocal|Default.Deploy.0 = DebugLocal
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Development|Default.ActiveCfg = Development
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Development|Default.Build.0 = Development
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Development|Default.Deploy.0 = Development
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Production|Default.ActiveCfg = Production
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Production|Default.Build.0 = Production
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Production|Default.Deploy.0 = Production
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Release|Default.ActiveCfg = Production
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Release|Default.Build.0 = Production
+		{F3FA2CA4-6394-41C5-BFCE-DE810C47687F}.Release|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

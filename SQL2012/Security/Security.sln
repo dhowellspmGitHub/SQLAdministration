@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS", "SSRS\SSRS.rptproj", "{35613E03-C542-43DF-9A74-94C367102DCC}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS", "SSIS\SSIS.dtproj", "{C1A07D89-DCDF-4F71-A319-D3B22E696568}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sspt250:8080/tfs/dtech
+		SccProjectUniqueName0 = SSRS\\SSRS.rptproj
+		SccProjectName0 = .
+		SccAuxPath0 = http://sspt250:8080/tfs/dtech
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectFilePathRelativizedFromConnection0 = SSRS\\
+		SccProjectUniqueName1 = SSIS\\SSIS.dtproj
+		SccProjectName1 = .
+		SccAuxPath1 = http://sspt250:8080/tfs/dtech
+		SccLocalPath1 = .
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectFilePathRelativizedFromConnection1 = SSIS\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35613E03-C542-43DF-9A74-94C367102DCC}.DebugLocal|Default.ActiveCfg = SSRS Debug
+		{35613E03-C542-43DF-9A74-94C367102DCC}.DebugLocal|Default.Build.0 = SSRS Debug
+		{35613E03-C542-43DF-9A74-94C367102DCC}.Development|Default.ActiveCfg = Production
+		{35613E03-C542-43DF-9A74-94C367102DCC}.Development|Default.Build.0 = Production
+		{35613E03-C542-43DF-9A74-94C367102DCC}.Development|Default.Deploy.0 = Production
+		{35613E03-C542-43DF-9A74-94C367102DCC}.Production|Default.ActiveCfg = Production
+		{35613E03-C542-43DF-9A74-94C367102DCC}.Production|Default.Build.0 = Production
+		{35613E03-C542-43DF-9A74-94C367102DCC}.Production|Default.Deploy.0 = Production
+		{C1A07D89-DCDF-4F71-A319-D3B22E696568}.DebugLocal|Default.ActiveCfg = Development
+		{C1A07D89-DCDF-4F71-A319-D3B22E696568}.DebugLocal|Default.Build.0 = Development
+		{C1A07D89-DCDF-4F71-A319-D3B22E696568}.Development|Default.ActiveCfg = Development
+		{C1A07D89-DCDF-4F71-A319-D3B22E696568}.Development|Default.Build.0 = Development
+		{C1A07D89-DCDF-4F71-A319-D3B22E696568}.Production|Default.ActiveCfg = Development
+		{C1A07D89-DCDF-4F71-A319-D3B22E696568}.Production|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
+  DTS:ObjectName="OLE Server_01 Tempdb"
+  DTS:DTSID="{4EE807DB-D876-4241-84F5-DF1091C3B08D}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_01]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Retain="True"
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SDBS248;User ID=SQLMgtApp;Initial Catalog=tempdb;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{A1E77F10-629B-452A-BCD4-91E81AF32759}NPSDBS002.tempdb.SSISSysAdmin;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWcWlsIZlokmbSuU4wKnnpgAAAAACAAAAAAADZgAAwAAAABAAAADmoySMcjd/2rQ3SThbZEzGAAAAAASAAACgAAAAEAAAAP7KKRhk9XxsV4itY+dD+2+AAAAAKEbfx6xJ22Ygl2lFCtVwL/AwcO4/MlbF3VNuMpAyXN7S1sabyFU1xS0D1sKjXgg9ogSgfbSmiaEiF861/0R32ZzOFxb9YZO0YboxFea8cAfaxvRTjuS41JCdZYdjmc/YkCv50yh3Mw0csuBoFO05X8ayQttLiqo8zqmbUzpyym4UAAAA8y4QnIRkMIydOOG9av6et0VIL88=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

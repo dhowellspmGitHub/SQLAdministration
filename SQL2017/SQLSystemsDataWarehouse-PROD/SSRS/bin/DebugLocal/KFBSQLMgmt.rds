@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="KFBSQLMgmt">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=SDBS248;Initial Catalog=KFBSQLMgmt</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>87da0fde-7abc-4123-a8ec-910895e02cc9</DataSourceID>
+</RptDataSource>

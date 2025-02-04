@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OLE Server_01"
+  DTS:DTSID="{129891A5-9A6C-47AA-B0BE-F41B07036193}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Database_Name_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_01]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=npSDBS062;User ID=SQLMgtApp;Initial Catalog=KFBSQLMgmt;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7PAHNo7+uEu/s1yMNp60CwAAAAACAAAAAAADZgAAwAAAABAAAAA2Vhom0nR1D2fDAoXVb8D9AAAAAASAAACgAAAAEAAAAFqbZvR5JlYJ8/IEUxfJaAl4AAAAWbDmvc8+WKyxno0OyaiBDvqt+vfui2pXuTPS2JQuNdOz5aOGvz4mEv/Zx9e1rocL9QBqo98CZdY4eeGC+7IwQY6LNl+lhQEJsGGgBwQe42CCmbKaC85+2+z71rLldaCKcqdS44iYIeTT65MujZ7900fLOIlUDSi+FAAAAPer0SbW0dUnnjnkJaGLzBDRyHmu</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

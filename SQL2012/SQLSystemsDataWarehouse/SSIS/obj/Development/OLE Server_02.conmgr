@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OLE Server_02"
+  DTS:DTSID="{AF39655A-113D-4EB3-84EA-D708D62A26C3}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Database_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_02]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=SDBS241;User ID=SQLMgtApp;Initial Catalog=CI_PROD;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{FEBBF76D-C51F-4662-B9DF-047671CFD699}SDBS230.JobManagement.sa1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtUdV1UZHEmsx7r6G+LdpwAAAAACAAAAAAADZgAAwAAAABAAAAD1BQ5ivUHCsEL4z/q1S3AbAAAAAASAAACgAAAAEAAAADQLeg4isoX+CJzbInOog9N4AAAAL3w7AyaI5f1H4zt4dxMDi8YuUSdoj6JfxsB4b589D2oFfv4nziokq0OKQ/wue1mTICywwZ0PcqY/Aq3TTxLvzCLWHdCUTl8tPSkQyM3I2UYROJl6n1FzU5Xc/vexcGH8iD1pt7UGc2x4ojf/W7KBmoL8HXv+9tY/FAAAABTCRO8pv4JBo93bA0ClpT3PEECB</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

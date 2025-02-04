@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[AutoUnitCoverage] (
+    [PolicyId]                          INT            NOT NULL,
+    [UnitNbr]                           INT            NOT NULL,
+    [CoverageCd]                        CHAR (3)       NOT NULL,
+    [PolicyNbr]                         VARCHAR (16)   NOT NULL,
+    [SublineBusinessTypeCd]             CHAR (1)       NOT NULL,
+    [CoverageDesc]                      VARCHAR (250)  NULL,
+    [CoverageLimitCd]                   CHAR (3)       NULL,
+    [CoverageLimitCodeDesc]             VARCHAR (20)   NULL,
+    [CoverageLimitAmt]                  DECIMAL (9)    NULL,
+    [CoverageBasePremiumAmt]            DECIMAL (9, 2) NULL,
+    [CoveragePremiumAmt]                DECIMAL (9, 2) NULL,
+    [CoverageDeductibleCd]              CHAR (3)       NULL,
+    [CoverageDeductibleAmt]             DECIMAL (5)    NULL,
+    [EachIncidentCoverageLimitAmt]      DECIMAL (9)    NULL,
+    [EachIncidentCoverageDeductibleAmt] DECIMAL (5)    NULL,
+    [PerPersonCoverageLimitAmt]         DECIMAL (9)    NULL,
+    [PerPersonCoverageDeductibleAmt]    DECIMAL (5)    NULL,
+    [MinimumPremInd]                    BIT            NULL,
+    [UpdatedTmstmp]                     DATETIME2 (7)  NOT NULL,
+    [UserUpdatedId]                     CHAR (8)       NOT NULL,
+    [LastActionCd]                      CHAR (1)       NOT NULL,
+    [SourceSystemCd]                    CHAR (2)       NOT NULL,
+    CONSTRAINT [PK_AutoUnitCoverage] PRIMARY KEY CLUSTERED ([PolicyId] ASC, [UnitNbr] ASC, [CoverageCd] ASC) ON [POLICYCD],
+    CONSTRAINT [FK_AutoUnitCoverage_AutoUnit_01] FOREIGN KEY ([PolicyId], [UnitNbr]) REFERENCES [dbo].[AutoUnit] ([PolicyId], [UnitNbr])
+) ON [POLICYCD];
+

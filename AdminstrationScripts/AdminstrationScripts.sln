@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Configuration", "Configuration\Configuration.sqlproj", "{71F7CCD2-A1A2-432D-A646-F677568C485C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Security", "Security\Security.sqlproj", "{2BE45B95-BD91-4672-AC3C-1169FA77237C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Maintenance", "Maintenance\Maintenance.sqlproj", "{A88B7C7F-9BA3-43A4-889F-260CC70411FC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Performance", "Performance\Performance.sqlproj", "{1B197E63-859C-4D5D-B95D-8BADCFEE2364}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sspt250:8080/tfs/dtech
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Configuration\\Configuration.sqlproj
+		SccProjectName1 = Configuration
+		SccLocalPath1 = Configuration
+		SccProjectUniqueName2 = Security\\Security.sqlproj
+		SccProjectName2 = Security
+		SccLocalPath2 = Security
+		SccProjectUniqueName3 = Maintenance\\Maintenance.sqlproj
+		SccProjectName3 = Maintenance
+		SccLocalPath3 = Maintenance
+		SccProjectUniqueName4 = Performance\\Performance.sqlproj
+		SccProjectName4 = Performance
+		SccLocalPath4 = Performance
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F7CCD2-A1A2-432D-A646-F677568C485C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F7CCD2-A1A2-432D-A646-F677568C485C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F7CCD2-A1A2-432D-A646-F677568C485C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{71F7CCD2-A1A2-432D-A646-F677568C485C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F7CCD2-A1A2-432D-A646-F677568C485C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F7CCD2-A1A2-432D-A646-F677568C485C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2BE45B95-BD91-4672-AC3C-1169FA77237C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE45B95-BD91-4672-AC3C-1169FA77237C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE45B95-BD91-4672-AC3C-1169FA77237C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2BE45B95-BD91-4672-AC3C-1169FA77237C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE45B95-BD91-4672-AC3C-1169FA77237C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE45B95-BD91-4672-AC3C-1169FA77237C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A88B7C7F-9BA3-43A4-889F-260CC70411FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88B7C7F-9BA3-43A4-889F-260CC70411FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88B7C7F-9BA3-43A4-889F-260CC70411FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A88B7C7F-9BA3-43A4-889F-260CC70411FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88B7C7F-9BA3-43A4-889F-260CC70411FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88B7C7F-9BA3-43A4-889F-260CC70411FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1B197E63-859C-4D5D-B95D-8BADCFEE2364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B197E63-859C-4D5D-B95D-8BADCFEE2364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B197E63-859C-4D5D-B95D-8BADCFEE2364}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1B197E63-859C-4D5D-B95D-8BADCFEE2364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B197E63-859C-4D5D-B95D-8BADCFEE2364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B197E63-859C-4D5D-B95D-8BADCFEE2364}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

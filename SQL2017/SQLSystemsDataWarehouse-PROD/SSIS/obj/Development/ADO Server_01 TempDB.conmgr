@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ADO Server_01 TempDB"
+  DTS:DTSID="{D220A6D6-CEB8-45BB-93CC-60511DFCE875}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_01]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_01]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=SDBS248;User ID=SQLMgtApp;Initial Catalog=tempdb;Persist Security Info=True;Application Name=&quot;KFBSQLMgmt ETL Project ADO Server 01 TempDB&quot;;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADhyxFvg18U2PNo9csP6u3wAAAAACAAAAAAADZgAAwAAAABAAAACzGXg4n8y0jm/gUXHQLS2dAAAAAASAAACgAAAAEAAAAJQ/iXYhlaDseohDEjuo22yAAAAAeJ84cn25ung+QD5vchF9QSCccuFpj0YtqQVAvaaI8sm/cBTuc4rAoVylENY09YckBiPu13uS9JVk3PAnnOihKGzcSyWBEC+V14Cw+J92GUI+pmxP9b36bml4LFH6V5w3XccIrD8n87wFk+byKlnmi1NguzrH13VppnuRFUSqTCUUAAAA/jL7SaJhe0ZcRc9pchLUjLbQMio=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

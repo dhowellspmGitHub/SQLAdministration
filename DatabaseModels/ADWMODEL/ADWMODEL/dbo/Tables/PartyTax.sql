@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[PartyTax] (
+    [PartyTaxId]                INT            NOT NULL,
+    [TaxXReferenceId]           INT            NOT NULL,
+    [TaxIdentificationNbr]      CHAR (13)      NOT NULL,
+    [CurrentRecordInd]          BIT            NOT NULL,
+    [W9Ind]                     CHAR (1)       NULL,
+    [W9WithholdingPct]          DECIMAL (7, 2) NULL,
+    [IRSPartyNm]                VARCHAR (40)   NULL,
+    [LockdownReasonDesc]        VARCHAR (20)   NULL,
+    [TaxInformationRevisedInd]  CHAR (1)       NULL,
+    [AddressLine1Desc]          VARCHAR (100)  NOT NULL,
+    [AddressLine2Desc]          VARCHAR (100)  NOT NULL,
+    [CityNm]                    CHAR (30)      NOT NULL,
+    [StateOrProvinceCd]         CHAR (3)       NOT NULL,
+    [ZipCd]                     CHAR (9)       NOT NULL,
+    [StatusCd]                  CHAR (1)       NULL,
+    [UpdatedTmstmp]             DATETIME2 (7)  NOT NULL,
+    [UserUpdatedId]             CHAR (8)       NOT NULL,
+    [LastActionCd]              CHAR (1)       NOT NULL,
+    [SourceSystemCd]            CHAR (2)       NOT NULL,
+    [SourceSystemUserUpdatedId] CHAR (10)      NOT NULL,
+    [SourceSystemUpdatedTmstmp] DATETIME2 (7)  NULL,
+    CONSTRAINT [PK_PartyTax] PRIMARY KEY CLUSTERED ([PartyTaxId] ASC) ON [CLIENTCD]
+) ON [CLIENTCD];
+

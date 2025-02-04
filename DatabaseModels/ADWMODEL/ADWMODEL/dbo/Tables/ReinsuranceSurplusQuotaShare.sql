@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[ReinsuranceSurplusQuotaShare] (
+    [ReinsuranceSurplusQuotaShareId] INT             NOT NULL,
+    [QSReinsuranceAmt]               DECIMAL (18, 2) NULL,
+    [SSReinsuranceAmt]               DECIMAL (18, 2) NULL,
+    [SSReinsurance1PercentAmt]       DECIMAL (18, 2) NULL,
+    [SSReinsurance2PercentAmt]       DECIMAL (18, 2) NULL,
+    [SSReinsurance3PercentAmt]       DECIMAL (18, 2) NULL,
+    [SSReinsurance1Pct]              DECIMAL (5, 4)  NULL,
+    [SSReinsurance2Pct]              DECIMAL (5, 4)  NULL,
+    [SSReinsurance3Pct]              DECIMAL (5, 4)  NULL,
+    [QSReserveReinsAmt]              DECIMAL (18, 2) NULL,
+    [SSReserveReinsAmt]              DECIMAL (18, 2) NULL,
+    [ClaimUserCreateTime]            DATETIME2 (7)   NOT NULL,
+    [ClaimUserCreatedId]             CHAR (8)        NOT NULL,
+    [ClaimUserUpdatedId]             CHAR (8)        NOT NULL,
+    [ClaimUpdatedTmstmp]             DATETIME2 (7)   NOT NULL,
+    [CurrentRecordInd]               BIT             NOT NULL,
+    [UpdatedTmstmp]                  DATETIME2 (7)   NOT NULL,
+    [UserUpdatedId]                  CHAR (8)        NOT NULL,
+    [LastActionCd]                   CHAR (1)        NOT NULL,
+    [SourceSystemCd]                 CHAR (2)        NOT NULL,
+    [SourceSystemId]                 INT             NOT NULL,
+    [RetiredInd]                     CHAR (1)        NOT NULL,
+    CONSTRAINT [PK_ReinsuranceSurplusQuotaShare] PRIMARY KEY CLUSTERED ([ReinsuranceSurplusQuotaShareId] ASC) ON [CLAIMSCD]
+) ON [CLAIMSCD];
+

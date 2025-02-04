@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Configuration">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="edrdbdev1dept01:KFBDOM1\dxhadmin">
+          <Created>2025-01-30T09:39:54.7053952-05:00</Created>
+          <Type>SQL</Type>
+          <Server>edrdbdev1dept01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS248:KFBDOM1\dxhadmin">
+          <Created>2025-01-30T10:26:15.4298962-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS248</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ServerSetup-Task1-CreateAlertsandUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ServerSetup-Task1-CreateAlertsandUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ServerSetup-Task2-CreateSPROCsRunAtStartUp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ServerSetup-Task2-CreateSPROCsRunAtStartUp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ServerSetup-Task3-CreateJob-ReauthorizeTEMPDBOwners.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ServerSetup-Task3-CreateJob-ReauthorizeTEMPDBOwners.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ServerSetup-Task4-CreateDatabase-LocalKFBSQLMgmt.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ServerSetup-Task4-CreateDatabase-LocalKFBSQLMgmt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-GetEnvExecutions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-GetEnvExecutions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-GetEnvReferenceIDs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-GetEnvReferenceIDs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-SetSingleVariableValue.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-SetSingleVariableValue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-Task1-CreateAdminFolderandUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-Task1-CreateAdminFolderandUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-Task3-CreatePackageParameters.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-Task3-CreatePackageParameters.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-Task2-CreateProjectParametersandSecurity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-Task2-CreateProjectParametersandSecurity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-Task4-CreateEnvironment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:edrdbdev1dept01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>edrdbdev1dept01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-Task4-CreateEnvironment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISDBCatalog-Task5-CopyEnvironment.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SSISDBCatalog-Task5-CopyEnvironment.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+  <SccProjectName />
+  <SccAuxPath />
+  <SccLocalPath />
+  <SccProvider />
+</SqlWorkbenchSqlProject>

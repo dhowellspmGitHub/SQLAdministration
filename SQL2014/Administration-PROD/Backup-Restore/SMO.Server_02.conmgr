@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SMO Server_02"
+  DTS:DTSID="{6CDF64BD-DC57-4465-AA85-4E15A11DA221}"
+  DTS:CreationName="SMOServer">
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="SqlServerName">@[$Project::Server_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_02]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <SMOServerConnectionManager
+      ConnectionString="SqlServerName=npSDBS043;UseWindowsAuthentication=False;UserName=SQLMgtApp;">
+      <PassWord
+        Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkyTrmt2kI0Oa84dxpJg1awAAAAACAAAAAAADZgAAwAAAABAAAACQ6uiKBfISDf3BZOPhtwBmAAAAAASAAACgAAAAEAAAALS8uDVX7Gzau0vn7XRAhWxYAAAA2Dy47XYNfNFXq98/kPAhlcaBBCoViUasfa4nnmbt2Ct3qc4zN0Suabv7MVyau50E29yVG0bbG6jHjdWF5fB0yRWnkuy79nRYQdm+PVJXqAO+G462/ybBgxQAAAAStFXgux8h0JHcwOWmiJvSROMn+A==</PassWord>
+    </SMOServerConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

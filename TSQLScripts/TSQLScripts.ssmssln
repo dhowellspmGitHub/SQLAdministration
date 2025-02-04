@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Configuration", "Configuration\Configuration.ssmssqlproj", "{70106609-B33E-4D7B-9B17-ED79854F9FBC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Security", "Security\Security.ssmssqlproj", "{182CDDDE-8F9A-4013-ACE0-213AC89C9662}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Maintenance-IntegrationServices", "Maintenance-IntegrationServices\Maintenance-IntegrationServices.ssmssqlproj", "{CB576B02-E028-448B-9FF8-810512D6BB01}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Performance", "Performance\Performance.ssmssqlproj", "{D35D945E-0182-49BF-9D71-0B64634443B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30211482-18A0-4D66-A264-DF94A906FBD1}.Default|Default.ActiveCfg = Default
+		{70106609-B33E-4D7B-9B17-ED79854F9FBC}.Default|Default.ActiveCfg = Default
+		{182CDDDE-8F9A-4013-ACE0-213AC89C9662}.Default|Default.ActiveCfg = Default
+		{CB576B02-E028-448B-9FF8-810512D6BB01}.Default|Default.ActiveCfg = Default
+		{D35D945E-0182-49BF-9D71-0B64634443B9}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3C70BB-67FF-48BB-AC8E-1C3042691DD6}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectUniqueName0 = Security\\Security.ssmssqlproj
+		SccProjectName0 = $/SQLAdministration/TSQLScripts
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Team\u0020Foundation\u0020Server\u0020MSSCCI\u0020Provider
+		SccProjectFilePathRelativizedFromConnection0 = Security\\
+		SccProjectUniqueName1 = Maintenance-IntegrationServices\\Maintenance-IntegrationServices.ssmssqlproj
+		SccProjectName1 = $/SQLAdministration/TSQLScripts
+		SccLocalPath1 = .
+		SccProvider1 = MSSCCI:Team\u0020Foundation\u0020Server\u0020MSSCCI\u0020Provider
+		SccProjectFilePathRelativizedFromConnection1 = Maintenance-IntegrationServices\\
+		SccProjectUniqueName2 = Performance\\Performance.ssmssqlproj
+		SccProjectName2 = $/SQLAdministration/TSQLScripts
+		SccLocalPath2 = .
+		SccProvider2 = MSSCCI:Team\u0020Foundation\u0020Server\u0020MSSCCI\u0020Provider
+		SccProjectFilePathRelativizedFromConnection2 = Performance\\
+		SccProjectUniqueName3 = Configuration\\Configuration.ssmssqlproj
+		SccProjectName3 = $/SQLAdministration/TSQLScripts
+		SccLocalPath3 = .
+		SccProvider3 = MSSCCI:Team\u0020Foundation\u0020Server\u0020MSSCCI\u0020Provider
+		SccProjectFilePathRelativizedFromConnection3 = Configuration\\
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sspt250:8080/tfs/dtech
+		SccLocalPath0 = .
+	EndGlobalSection
+EndGlobal

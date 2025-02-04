@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ADO Server_02"
+  DTS:DTSID="{08B58EAB-4787-4777-9692-E6DE0E875028}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Database_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Login_Password_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server_Name_02]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UserName">@[$Project::Login_Name_02]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=SDBS248;User ID=SQLMgtApp;Initial Catalog=SSISDB;Persist Security Info=True;MultipleActiveResultSets=True;Application Name=&quot;KFBSQLMgmt ETL Project ADO Server 02&quot;;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWcWlsIZlokmbSuU4wKnnpgAAAAACAAAAAAADZgAAwAAAABAAAACRjwEXfSE3Yesm06NBoihmAAAAAASAAACgAAAAEAAAAJX5HsCmdNSZt7ORC/i7iGWAAAAAzH/JqptAlXf9fvAqXnCE1EHMMmVHdVOSgemxUx+QqMrFUelqSC1Q1FzNjphsn0VU5ktd9dy6OScxDzsj/topQ8OSGMG6Neg9jeYmWgaEBYvJs+YSNqlI1sKKMaxIFI6dcg15YTRYcuWXbarTyg9uM2V57VvO/spWysivYDebLe0UAAAAgl0n31skT5pqwdJ0SnqRyZNGHAk=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

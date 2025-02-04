@@ -1,0 +1,1346 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Security">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="npsdbs011:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T16:14:21.1185383-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs011</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs011\ACCT02:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T16:31:03.4116495-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs011\ACCT02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs019:KFBDOM1\dxhadmin">
+          <Created>2020-07-15T12:54:32.5361342-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs029:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T16:34:24.4017291-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs029</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs030:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T16:40:37.422434-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs030</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs032:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T16:44:36.0418308-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs032</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="NPSDBS033:KFBDOM1\dxhadmin">
+          <Created>2019-12-12T11:13:42.8043544-05:00</Created>
+          <Type>SQL</Type>
+          <Server>NPSDBS033</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs039:KFBDOM1\dxhadmin">
+          <Created>2019-12-12T11:24:10.8226114-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs039</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs040:KFBDOM1\dxhadmin">
+          <Created>2020-06-15T16:20:07.8956082-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs040</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs040\MSSQL02SE:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:55:33.3818089-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs040\MSSQL02SE</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs040\SQL2014:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:56:19.3654241-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs040\SQL2014</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs040\SQL2016:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:56:52.9335383-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs040\SQL2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs041:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T17:00:14.4974414-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs041</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs042:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T17:06:52.5086922-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs042</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs044:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T17:09:45.2297049-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs044</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs045:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T17:12:36.7983592-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs045</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs046:KFBDOM1\dxhadmin">
+          <Created>2020-06-23T17:15:23.5909033-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs046</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs047:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T08:56:36.254044-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs047</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs049:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T08:59:44.1553219-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs049</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs050:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:20:50.6954577-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs050</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs051:KFBDOM1\dxhadmin">
+          <Created>2020-04-07T15:17:02.4817546-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs051</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs052:KFBDOM1\dxhadmin">
+          <Created>2019-12-12T11:26:14.3394892-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs052</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs053:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:30:53.4246486-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs053</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs054:KFBDOM1\dxhadmin">
+          <Created>2020-01-10T09:40:07.2452912-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs054</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>CODAQA</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs055:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:35:20.7754816-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs055</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs057:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:37:28.4388658-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs057</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs058:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:39:11.9098477-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs058</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs059:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:41:22.655763-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs059</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs060:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:49:31.2607154-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs060</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs061:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:50:05.9746487-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs061</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs062:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:52:12.2682012-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs062</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs063:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T09:54:17.7582191-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs063</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npSDBS064:KFBDOM1\dxhadmin">
+          <Created>2019-12-12T11:49:56.2872135-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npSDBS064</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs065:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:06:53.7776832-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs065</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs066:KFBDOM1\dxhadmin">
+          <Created>2019-12-13T09:24:47.3628247-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs066</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs067:KFBDOM1\dxhadmin">
+          <Created>2020-01-07T13:05:26.3257525-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs067</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs068:KFBDOM1\dxhadmin">
+          <Created>2020-01-08T15:40:39.2241413-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs068</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs069:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:43:58.5554441-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs069</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs078:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:46:31.4721934-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs078</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs078\MSSQL02SE:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:58:22.8844188-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs078\MSSQL02SE</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs079:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:49:46.1718031-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs079</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs080:KFBDOM1\dxhadmin">
+          <Created>2025-01-14T16:59:33.5686606-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs080</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs099:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:51:40.2797032-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs099</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs100:KFBDOM1\dxhadmin">
+          <Created>2024-11-12T10:24:34.4067141-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs100</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs103:KFBDOM1\dxhadmin">
+          <Created>2022-07-11T14:57:06.0587725-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs103</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs106:KFBDOM1\dxhadmin">
+          <Created>2023-02-27T17:14:25.2782752-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs106</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs108:KFBDOM1\dxhadmin">
+          <Created>2023-07-17T11:40:12.9204198-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs108</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs114:KFBDOM1\dxhadmin">
+          <Created>2024-11-12T10:42:02.1129803-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs114</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>TcpIp</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs130:sa">
+          <Created>2020-07-06T13:30:57.9413797-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs130</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="NPSDBS130:SA">
+          <Created>2020-08-18T09:04:14.47846-04:00</Created>
+          <Type>SQL</Type>
+          <Server>NPSDBS130</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs145:KFBDOM1\dxhadmin">
+          <Created>2022-06-08T13:33:17.8943778-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs145</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs160:KFBDOM1\dxhadmin">
+          <Created>2022-01-31T17:35:25.2705036-05:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs160</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="npsdbs160:sa">
+          <Created>2020-04-22T15:34:28.8470001-04:00</Created>
+          <Type>SQL</Type>
+          <Server>npsdbs160</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="NPSDBS160:SA">
+          <Created>2020-08-18T09:06:32.9062787-04:00</Created>
+          <Type>SQL</Type>
+          <Server>NPSDBS160</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs200:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T16:05:52.9316203-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs200</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs201:KFBDOM1\dxhadmin">
+          <Created>2024-06-20T11:51:02.5367641-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs201</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS209:KFBDOM1\dxhadmin">
+          <Created>2019-12-12T15:18:52.9847864-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS209</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs212:KFBDOM1\dxhadmin">
+          <Created>2023-07-05T13:46:29.7239744-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs212</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs215\appsynccopy01:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:21:32.729348-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs215\appsynccopy01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS216:SA">
+          <Created>2020-07-06T18:26:51.7195918-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS216</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS216:sa">
+          <Created>2020-08-17T15:53:25.9186209-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS216</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs222:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T16:32:37.1026103-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs222</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS222\ACCT02:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:23:10.2302131-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS222\ACCT02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs223:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T16:33:48.4061261-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs223</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs228:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T16:34:28.5789345-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs228</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs231:KFBDOM1\dxhadmin">
+          <Created>2019-12-12T15:22:28.0406476-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs231</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs233:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T16:35:42.1507157-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs233</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs234:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:53:30.5909819-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs234</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs235:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:54:10.2398552-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs235</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs237:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:54:40.2212355-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs237</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs238:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:55:50.8821635-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs238</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS238\AMS2017:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:24:22.1253527-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS238\AMS2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs239:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:56:26.3082958-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs239</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs241:KFBDOM1\dxhadmin">
+          <Created>2020-03-16T16:46:45.5407811-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs241</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs242:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:57:46.3319253-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs242</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs243:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T17:59:41.5421364-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs243</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs244:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:00:18.4459027-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs244</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs245:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:02:23.2915634-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs245</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs246:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:02:58.4000108-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs246</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs248:KFBDOM1\dxhadmin">
+          <Created>2022-10-05T13:54:29.195663-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs248</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs251:SA">
+          <Created>2020-07-06T18:27:57.0546403-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs251</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS251:sa">
+          <Created>2020-08-17T16:00:28.0697764-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS251</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs254:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:10:24.9300321-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs254</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs255:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:11:10.2122019-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs255</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS255\OTEXSTREAM:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:25:31.4550848-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS255\OTEXSTREAM</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs267:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:11:43.075504-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs267</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs268:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:12:14.28056-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs268</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs270:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:13:04.3609111-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs270</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs271:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:13:46.1546491-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs271</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs272:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:14:26.9534126-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs272</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs273:SA">
+          <Created>2020-07-06T18:28:33.3334161-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs273</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS273:sa">
+          <Created>2020-08-17T16:01:59.9320926-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS273</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs274:SA">
+          <Created>2020-07-06T18:29:15.9822926-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs274</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SDBS274:sa">
+          <Created>2020-08-17T16:03:57.0734652-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SDBS274</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs275:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:15:03.3793776-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs275</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs276:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:15:38.9210533-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs276</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs277:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:17:13.1905112-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs277</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs278:KFBDOM1\dxhadmin">
+          <Created>2020-01-10T13:18:06.8945535-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs278</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs279:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:18:02.6533511-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs279</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs280:KFBDOM1\dxhadmin">
+          <Created>2019-12-17T11:47:51.9811373-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs280</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs281:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:19:43.1125302-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs281</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sdbs282:KFBDOM1\dxhadmin">
+          <Created>2020-07-06T18:20:25.464335-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sdbs282</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sfil225\sqlexpress:KFBDOM1\dxhadmin">
+          <Created>2020-01-10T12:50:39.1325346-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sfil225\sqlexpress</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="vx11-dr-sdbs267:KFBDOM1\dxhadmin">
+          <Created>2020-06-24T11:54:45.8304429-04:00</Created>
+          <Type>SQL</Type>
+          <Server>vx11-dr-sdbs267</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ADGroups-CreateApplicationGroupLogins.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs080:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs080</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADGroups-CreateApplicationGroupLogins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADUser-CreateInAllDatabases-AssignRoles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sdbs280:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sdbs280</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADUser-CreateInAllDatabases-AssignRoles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseRoles-db_ddlviewer_CreateandGrant.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs058:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs058</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatabaseRoles-db_ddlviewer_CreateandGrant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseRoles-db_executor_CreateandGrant.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs058:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs058</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatabaseRoles-db_executor_CreateandGrant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DMZServers-CreateAppSQLLogins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DMZServers-CreateAppSQLLogins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Security-sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs114:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs114</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Security-sp_help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Security-sp_hexadecimal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs114:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs114</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Security-sp_hexadecimal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Server-Security-Audits_AuditOperations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sdbs272:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sdbs272</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Server-Security-Audits_AuditOperations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Server-Security-Audits_CreateLocalPaths.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Server-Security-Audits_CreateLocalPaths.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Server-Security-Audits_LoginEvents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sdbs272:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sdbs272</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Server-Security-Audits_LoginEvents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Server-Security-Audits_PrincipalEvents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sdbs272:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sdbs272</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Server-Security-Audits_PrincipalEvents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Server-Security-XE_LoginEvents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sdbs272:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sdbs272</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Server-Security-XE_LoginEvents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLServiceAccount-CreateAppSQLLogins.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:npsdbs080:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>npsdbs080</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLServiceAccount-CreateAppSQLLogins.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+  <SccProjectName />
+  <SccAuxPath />
+  <SccLocalPath />
+  <SccProvider />
+</SqlWorkbenchSqlProject>

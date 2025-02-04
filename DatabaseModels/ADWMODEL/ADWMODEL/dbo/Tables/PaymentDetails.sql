@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[PaymentDetails] (
+    [PaymentDetailsId]              INT            NOT NULL,
+    [EBusinessId]                   VARCHAR (35)   NULL,
+    [PaymentCodeId]                 INT            NULL,
+    [TransactionNbr]                INT            NOT NULL,
+    [AgencyNbr]                     CHAR (3)       NOT NULL,
+    [BranchNbr]                     CHAR (3)       NULL,
+    [PaymentChannelNm]              CHAR (10)      NOT NULL,
+    [PaymentDt]                     DATE           NOT NULL,
+    [PaymentAmt]                    DECIMAL (9, 2) NOT NULL,
+    [TransactionDayCd]              CHAR (3)       NULL,
+    [StatusCd]                      CHAR (2)       NOT NULL,
+    [BillingChannelTypeCd]          CHAR (10)      NULL,
+    [BankAccountTypeCd]             CHAR (3)       NOT NULL,
+    [SourceSystemUserCreatedId]     CHAR (10)      NULL,
+    [SourceSystemUserCreatedTmstmp] DATETIME       NOT NULL,
+    [UpdatedTmstmp]                 DATETIME2 (7)  NOT NULL,
+    [UserUpdatedId]                 CHAR (8)       NOT NULL,
+    [SourceSystemCd]                CHAR (2)       NOT NULL,
+    [LastActionCd]                  CHAR (1)       NOT NULL,
+    CONSTRAINT [PK_PaymentDetails] PRIMARY KEY CLUSTERED ([PaymentDetailsId] ASC) ON [CLAIMSCD],
+    CONSTRAINT [FK_PaymentDetails_eBusinessProfile_01] FOREIGN KEY ([EBusinessId]) REFERENCES [dbo].[eBusinessProfile] ([EBusinessId]),
+    CONSTRAINT [FK_PaymentDetails_PaymentCodeLookup_01] FOREIGN KEY ([PaymentCodeId]) REFERENCES [dbo].[PaymentCodeLookup] ([PaymentCodeId])
+) ON [CLAIMSCD];
+

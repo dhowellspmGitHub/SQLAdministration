@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Maintenance", "Maintenance\Maintenance.dtproj", "{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Backup-Restore", "Backup-Restore\Backup-Restore.dtproj", "{53C92ABD-318D-49BE-9A8C-826CF03705B3}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Reporting", "Reporting\Reporting.rptproj", "{7742D8E6-C53B-4894-8E43-805455B65D41}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Backup-Restore-PackageModel", "Backup-Restore-PackageModel\Backup-Restore-PackageModel.dtproj", "{E31EB140-3092-4658-836D-B04FBD200A14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37665650-EA19-4E9B-8F39-69761C131D26}"
+	ProjectSection(SolutionItems) = preProject
+		README-DeployingProjects.txt = README-DeployingProjects.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		NonProd|Default = NonProd|Default
+		Production|Default = Production|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Debug|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Debug|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.DebugLocal|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.DebugLocal|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Development|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Development|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.NonProd|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.NonProd|Default.Build.0 = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Production|Default.ActiveCfg = Production
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Production|Default.Build.0 = Production
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Release|Default.ActiveCfg = Development
+		{8D0F10B4-B5E1-4BCC-B7B8-EAB81C652878}.Release|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Debug|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Debug|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.DebugLocal|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.DebugLocal|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Development|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Development|Default.Build.0 = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.NonProd|Default.ActiveCfg = Production
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.NonProd|Default.Build.0 = Production
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Production|Default.ActiveCfg = Production
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Production|Default.Build.0 = Production
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Release|Default.ActiveCfg = Development
+		{53C92ABD-318D-49BE-9A8C-826CF03705B3}.Release|Default.Build.0 = Development
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Debug|Default.ActiveCfg = Development
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Debug|Default.Build.0 = Development
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.DebugLocal|Default.Build.0 = DebugLocal
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Development|Default.ActiveCfg = Development
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Development|Default.Build.0 = Development
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Development|Default.Deploy.0 = Development
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.NonProd|Default.ActiveCfg = 
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.NonProd|Default.Build.0 = 
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.NonProd|Default.Deploy.0 = 
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Production|Default.ActiveCfg = Production
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Production|Default.Build.0 = Production
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Production|Default.Deploy.0 = Production
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Release|Default.ActiveCfg = Release
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Release|Default.Build.0 = Release
+		{7742D8E6-C53B-4894-8E43-805455B65D41}.Release|Default.Deploy.0 = Release
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Debug|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Debug|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.DebugLocal|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.DebugLocal|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Development|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Development|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.NonProd|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.NonProd|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Production|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Production|Default.Build.0 = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Release|Default.ActiveCfg = Development
+		{E31EB140-3092-4658-836D-B04FBD200A14}.Release|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B63DA60-6A50-44D6-80B9-7D4AA80A83D0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sspt250:8080/tfs/dtech
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Maintenance\\Maintenance.dtproj
+		SccProjectName1 = Maintenance
+		SccLocalPath1 = Maintenance
+		SccProjectUniqueName2 = Backup-Restore\\Backup-Restore.dtproj
+		SccProjectName2 = Backup-Restore
+		SccLocalPath2 = Backup-Restore
+		SccProjectUniqueName3 = Reporting\\Reporting.rptproj
+		SccProjectName3 = Reporting
+		SccLocalPath3 = Reporting
+		SccProjectUniqueName4 = Backup-Restore-PackageModel\\Backup-Restore-PackageModel.dtproj
+		SccProjectName4 = Backup-Restore-PackageModel
+		SccLocalPath4 = Backup-Restore-PackageModel
+	EndGlobalSection
+EndGlobal

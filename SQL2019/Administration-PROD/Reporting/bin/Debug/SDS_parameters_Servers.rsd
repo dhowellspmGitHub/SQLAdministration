@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>KFBSQLMgmt</DataSourceReference>
+      <CommandText>SELECT 
+CASE [SI1].[NamedInstanceInd] WHEN 1 THEN CAST(([SI1].[HostName] + '\' + [SI1].[InstanceName]) AS VARCHAR(50))
+ELSE [SI1].[HostName] END AS pServers
+FROM [dbo].[vw_ServerInstances_InventoryDiagram] AS [SI1]
+WHERE [ProductionInd] LIKE 'YES'
+ORDER BY [pServers]</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="pServers">
+        <DataField>pServers</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

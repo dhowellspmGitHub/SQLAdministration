@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[PropertyAddress] (
+    [PropertyAddressId]      INT              NOT NULL,
+    [ReferenceNbr]           VARCHAR (16)     NOT NULL,
+    [AddressTypeCd]          CHAR (3)         NOT NULL,
+    [AddressLine1Desc]       VARCHAR (100)    NOT NULL,
+    [AddressLine2Desc]       VARCHAR (100)    NULL,
+    [CityNm]                 CHAR (30)        NOT NULL,
+    [StateOrProvinceCd]      CHAR (3)         NOT NULL,
+    [ZipCd]                  CHAR (9)         NOT NULL,
+    [AddressStandardizedInd] CHAR (1)         NULL,
+    [ChangeAddressStatusCd]  VARCHAR (10)     NOT NULL,
+    [EffectiveDt]            DATETIME         NOT NULL,
+    [ExpirationDt]           DATETIME         NULL,
+    [UserActionCd]           VARCHAR (20)     NULL,
+    [LegalAddressDesc]       VARCHAR (300)    NULL,
+    [LatitudeNbr]            DECIMAL (13, 10) NULL,
+    [LongitudeNbr]           DECIMAL (13, 10) NULL,
+    [CreatedTmstmp]          DATETIME2 (7)    NOT NULL,
+    [UserCreatedId]          CHAR (8)         NOT NULL,
+    [UpdatedTmstmp]          DATETIME2 (7)    NOT NULL,
+    [UserUpdatedId]          CHAR (8)         NOT NULL,
+    [LastActionCd]           CHAR (1)         NOT NULL,
+    [SourceSystemCd]         CHAR (2)         NOT NULL,
+    CONSTRAINT [PK_PropertyAddress] PRIMARY KEY CLUSTERED ([PropertyAddressId] ASC) ON [CLAIMSCD]
+) ON [CLAIMSCD];
+

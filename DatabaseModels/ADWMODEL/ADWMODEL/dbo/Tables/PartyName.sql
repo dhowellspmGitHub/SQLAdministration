@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[PartyName] (
+    [PartyNameId]               INT           NOT NULL,
+    [ClientReferenceNbr]        CHAR (10)     NOT NULL,
+    [SequenceNbr]               CHAR (3)      NULL,
+    [PartyTypeCd]               CHAR (1)      NULL,
+    [EffectiveDt]               DATE          NULL,
+    [LastOrCompanyNm]           CHAR (70)     NULL,
+    [FirstNm]                   CHAR (20)     NULL,
+    [MiddleNm]                  CHAR (20)     NULL,
+    [TitleNm]                   CHAR (3)      NULL,
+    [SuffixNm]                  CHAR (10)     NULL,
+    [InitialsNm]                CHAR (2)      NULL,
+    [NameNbr]                   CHAR (3)      NULL,
+    [NameTypeCd]                CHAR (3)      NULL,
+    [ClientAlphaKeyCd]          CHAR (10)     NULL,
+    [SourceSystemUpdatedTmstmp] DATETIME2 (7) NULL,
+    [SourceSystemUserUpdatedId] CHAR (10)     NULL,
+    [UpdatedTmstmp]             DATETIME2 (7) NOT NULL,
+    [UserUpdatedId]             CHAR (8)      NOT NULL,
+    [LastActionCd]              CHAR (1)      NOT NULL,
+    [SourceSystemCd]            CHAR (2)      NOT NULL,
+    CONSTRAINT [PK_PartyName] PRIMARY KEY CLUSTERED ([PartyNameId] ASC) ON [CLIENTCD],
+    CONSTRAINT [FK_PartyName_PartyMaster_01] FOREIGN KEY ([ClientReferenceNbr]) REFERENCES [dbo].[PartyMaster] ([ClientReferenceNbr])
+) ON [CLIENTCD];
+

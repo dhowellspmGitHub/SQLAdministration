@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ToolsVersion="2.0">
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD50cnVlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+U0FLPC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+U0FLPC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPlNBSzwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+U0FLPC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>KFBSQLMgmt.rds</Name>
+      <FullPath>KFBSQLMgmt.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSets>
+    <ProjectItem>
+      <Name>SDS_usp_Parameters_Applications.rsd</Name>
+      <FullPath>SDS_usp_Parameters_Applications.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SDS_usp_Parameters_BusinessCategories.rsd</Name>
+      <FullPath>SDS_usp_Parameters_BusinessCategories.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SDS_usp_Parameters_Databases.rsd</Name>
+      <FullPath>SDS_usp_Parameters_Databases.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SDS_usp_Parameters_ReportCustomizations.rsd</Name>
+      <FullPath>SDS_usp_Parameters_ReportCustomizations.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SDS_usp_Parameters_Servers.rsd</Name>
+      <FullPath>SDS_usp_Parameters_Servers.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SDS_usp_ReportHeadersAndFooters.rsd</Name>
+      <FullPath>SDS_usp_ReportHeadersAndFooters.rsd</FullPath>
+    </ProjectItem>
+  </DataSets>
+  <Reports>
+    <ProjectItem>
+      <Name>Application Support-By Application Name.rdl</Name>
+      <FullPath>Application Support-By Application Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Application Support-By SupportPrincipal.rdl</Name>
+      <FullPath>Application Support-By SupportPrincipal.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Application Support-Find by Database Name.rdl</Name>
+      <FullPath>Application Support-Find by Database Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Applications-Find By Application ID.rdl</Name>
+      <FullPath>Applications-Find By Application ID.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Applications-Find By Application Name.rdl</Name>
+      <FullPath>Applications-Find By Application Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataAccessRoles-Find by Application.rdl</Name>
+      <FullPath>DataAccessRoles-Find by Application.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataAccessRoles-Find by Type.rdl</Name>
+      <FullPath>DataAccessRoles-Find by Type.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataAccessRoles-Search by Account Name.rdl</Name>
+      <FullPath>DataAccessRoles-Search by Account Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Databases-Find by Application.rdl</Name>
+      <FullPath>Databases-Find by Application.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Databases-Find by Business Category.rdl</Name>
+      <FullPath>Databases-Find by Business Category.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Databases-Find By Database Name.rdl</Name>
+      <FullPath>Databases-Find By Database Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Databases-Find by Server Name.rdl</Name>
+      <FullPath>Databases-Find by Server Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ETLProcess_CurrentCustomErrors.rdl</Name>
+      <FullPath>ETLProcess_CurrentCustomErrors.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Servers-Application Count.rdl</Name>
+      <FullPath>Servers-Application Count.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Servers-Database Count by Application.rdl</Name>
+      <FullPath>Servers-Database Count by Application.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Servers-Find by Application.rdl</Name>
+      <FullPath>Servers-Find by Application.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Servers-Find by Business Category.rdl</Name>
+      <FullPath>Servers-Find by Business Category.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Servers-Find by System Name.rdl</Name>
+      <FullPath>Servers-Find by System Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SQL Security-Production Server and Database Access.rdl</Name>
+      <FullPath>SQL Security-Production Server and Database Access.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SQL Server Management Dashboard.rdl</Name>
+      <FullPath>SQL Server Management Dashboard.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>zzApplications-Inventory-SQL Database Based Apps.rdl</Name>
+      <FullPath>zzApplications-Inventory-SQL Database Based Apps.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\DebugLocal</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetFolder>SSRS</TargetFolder>
+        <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
+        <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin\Development</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetServerURL>http://npsdbs043/reportserver</TargetServerURL>
+        <TargetFolder>SQL Server Management/Infrastructure</TargetFolder>
+        <TargetDataSourceFolder>SQL Server Management/Infrastructure/DataSources</TargetDataSourceFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
+        <TargetDatasetFolder>SQL Server Management/Infrastructure/Datasets</TargetDatasetFolder>
+        <OverwriteDatasets>true</OverwriteDatasets>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Options>
+        <OutputPath>bin\Production</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetServerURL>http://sdbs234.kfbdom1.kyfb.pri/reportserver</TargetServerURL>
+        <TargetFolder>SQL Server Management/Infrastructure</TargetFolder>
+        <TargetDataSourceFolder>SQL Server Management/Infrastructure/Data Sources</TargetDataSourceFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
+        <TargetDatasetFolder>SQL Server Management/Infrastructure/Datasets</TargetDatasetFolder>
+        <OverwriteDatasets>true</OverwriteDatasets>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>
