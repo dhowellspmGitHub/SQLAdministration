@@ -1,3 +1,0 @@
-﻿CREATE LOGIN [KFBDOM1\SQL_Admins]
-    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
-

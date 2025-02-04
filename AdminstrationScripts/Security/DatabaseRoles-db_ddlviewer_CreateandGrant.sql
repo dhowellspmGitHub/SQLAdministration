@@ -1,26 +1,4 @@
-﻿IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_customrolepermissions')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_customrolepermissions]
-END
-
-IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_extendedproperties')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_extendedproperties]
-END
-
-IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_users')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_users]
-END
-
-IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_usersrolemembers')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_usersrolemembers]
-END
-GO
-
-
-USE [CI_M]
+﻿USE [eBusiness_PmtInt_QA]
 
 DECLARE @dbname NVARCHAR(128)
 --DECLARE @currentdbid INT
@@ -80,7 +58,7 @@ SELECT DISTINCT
 SCHEMA_NAME([schema_id]),[name], [type], [type_desc]
 from [sys].[objects]
 WHERE [type] IN 
-('AF','C','FN','IF','P','PG','PK','SN','TF','U','V','X')
+('AF','C','FN','IF','P','PG','PK','SN','SO','TF','U','V','X')
 --('FN','D','P','TF','SN','TR','V')
 AND [is_ms_shipped] = 0
 AND schema_id NOT IN (2,3,4)
@@ -147,11 +125,11 @@ BEGIN
 	WHILE @@FETCH_STATUS = 0
 	BEGIN
 		BEGIN TRY 
-			--SET @tsql = ''
-			--SET @tsql = @tsql + 'USE [' + @dbname + '] ' + CHAR(13) 
-			--SET @tsql = @tsql + 'ALTER ROLE [' + @dbrolename +  '] DROP MEMBER [' + @dbpname + ']' + CHAR(13) 
-			--exec sp_executesql @tsql
-			--PRINT @tsql
+			SET @tsql = ''
+			SET @tsql = @tsql + 'USE [' + @dbname + '] ' + CHAR(13) 
+			SET @tsql = @tsql + 'ALTER ROLE [' + @dbrolename +  '] DROP MEMBER [' + @dbpname + ']' + CHAR(13) 
+			exec sp_executesql @tsql
+			PRINT @tsql
 			EXEC sp_droprolemember @dbrolename, @dbpname
 			PRINT @dbrolename + ' role revoked from ' + @dbpname + ' successful'
 			

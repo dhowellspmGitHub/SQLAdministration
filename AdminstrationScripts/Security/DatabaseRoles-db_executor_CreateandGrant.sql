@@ -1,26 +1,5 @@
-﻿IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_customrolepermissions')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_customrolepermissions]
-END
-
-IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_extendedproperties')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_extendedproperties]
-END
-
-IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_users')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_users]
-END
-
-IF EXISTS (SELECT * FROM [msdb].[sys].[tables] WHERE [name] LIKE 'database_restore_usersrolemembers')
-BEGIN
-DROP TABLE [msdb].[dbo].[database_restore_usersrolemembers]
-END
-GO
-
-/****** Object:  Role [db_executor]    Script Date: 06/07/2013 12:51:35 ******/
-USE [ci_m]	--REPLACE THIS TEXT TO THE DATABASE NAME WHERE THE ROLE WILL BE CREATED--
+﻿/****** Object:  Role [db_executor]    Script Date: 06/07/2013 12:51:35 ******/
+USE [eBusiness_PmtInt_QA]	--REPLACE THIS TEXT TO THE DATABASE NAME WHERE THE ROLE WILL BE CREATED--
 GO
 
 IF NOT EXISTS (SELECT * FROM sys.database_principals WHERE name = N'db_executor' AND type = 'R')
@@ -38,7 +17,7 @@ DECLARE @grantcontrol BIT
 
 --uncomment out the next line to grant control and execute to role.  Otherwise, the role will only have VIEW DEFINITION permissions on all stored procedures
 --THIS MUST BE SET TO 1 ONLY ON NON-PRODUCTION SYSTEMS
-set @grantcontrol = 0
+set @grantcontrol = 1
 
 /*
 AF = Aggregate function (CLR)
@@ -46,6 +25,7 @@ FN = SQL scalar function
 IF = SQL inline table-valued function
 P = SQL Stored Procedure
 PG = Plan guide
+SO = Sequence Object
 SN = Synonym
 TF = SQL table-valued-function
 TR = SQL DML trigger
@@ -82,17 +62,15 @@ INTO @pschema, @pname
 
 WHILE @@FETCH_STATUS = 0
 BEGIN
+print @pschema
+print @pname
 BEGIN TRY
 	SET @tsql = ''
 	SET @tsql = @tsql + 'USE [' + @dbname + '] ' + CHAR(13) + CHAR(10)
 	SET @tsql = @tsql + 'GRANT SHOWPLAN TO [' + @dbrolename + '] ' + CHAR(13) + CHAR(10)
 	SET @tsql = @tsql + 'GRANT VIEW DEFINITION ON [' +@pschema +  '].[' + @pname + '] TO ['+ @dbrolename + '] ' + CHAR(13) + CHAR(10)
-	SET @tsql = @tsql +  'GRANT EXECUTE ON [' +@pschema +  '].[' + @pname + '] TO ['+ @dbrolename + '] ' + CHAR(13) + CHAR(10)
-
-	IF @grantcontrol = 1 
-	BEGIN
-		SET @tsql = @tsql + 'GRANT CONTROL ON [' +@pschema +  '].[' + @pname + '] TO ['+ @dbrolename + '] ' + CHAR(13) + CHAR(10)
-	END
+	SET @tsql = @tsql + 'GRANT EXECUTE ON [' +@pschema +  '].[' + @pname + '] TO ['+ @dbrolename + '] ' + CHAR(13) + CHAR(10)
+	SET @tsql = @tsql + 'GRANT CONTROL ON [' +@pschema +  '].[' + @pname + '] TO ['+ @dbrolename + '] ' + CHAR(13) + CHAR(10)
 		
 	EXEC sp_executesql @tsql
 	print @tsql
@@ -125,7 +103,7 @@ s1.[name]
 FROM sys.objects as SP1
 INNER JOIN sys.schemas as S1
 ON SP1.schema_id = S1.schema_id
-where sp1.[type] in ('IF','TF')
+where sp1.[type] in ('IF','TF','SO')
 order by type
 
 OPEN fcur
@@ -134,6 +112,9 @@ INTO @pschema, @pname
 
 WHILE @@FETCH_STATUS = 0
 BEGIN
+print @pschema
+print @pname
+
 BEGIN TRY
 	SET @tsql = ''
 	SET @tsql = @tsql + 'USE [' + @dbname + '] ' + CHAR(13) + CHAR(10)

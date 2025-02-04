@@ -32,12 +32,12 @@ DECLARE @alldatabasesindicator VARCHAR(30) = 'ALLDATABASES'
 /* Customize the WHERE condition and use the following query to get a list of the Service Accounts to use in the SELECT list in the INSERT statement to the 
 @CredentialsTable.  Copy/paste the first column as the SELECT values.  Remove the last UNION keyword
 SELECT 'SELECT ' + CHAR(39) + [UserId] + CHAR(39) + ',' + CHAR(39) + [CurrentPassword] + CHAR(39) + ',' + CHAR(39) + isnull([AssignedDatabaseName],'ALLDATABASES') + CHAR(39) + ',0 UNION' 
-,[servernameid],[ApplicationCreatedForName]
+,[ApplicationCreatedForName]
 FROM [dbo].[ServerPrincipalsLogins]
 WHERE
-userid like ?
-and ServerNameId = ?
-order by servernameid, UserId
+userid like '%'
+order by UserId, AssignedDatabaseName
+
 */
 DECLARE @CredentialsTable TABLE (SQLCredential VARCHAR(128), CurrentPassword VARCHAR(128), [AssignedDatabaseName] VARCHAR(128), CredIsProcessed BIT)
 INSERT INTO @CredentialsTable (SQLCredential,CurrentPassword,[AssignedDatabaseName],CredIsProcessed)
@@ -231,7 +231,8 @@ BEGIN
 			WHILE (SELECT COUNT(*) FROM @rolestogrant WHERE SPIsProcessed = 0 AND IsServerRole = 1 ) > 0
 			BEGIN
 			SELECT TOP 1 @SQLLoginName = SQLLoginName,@RoleNameToGrant = RoleNameToGrant FROM @rolestogrant WHERE SPIsProcessed = 0 AND IsServerRole = 1
-			SET @tsql = 'ALTER SERVER ROLE [<urolename>] ADD MEMBER [<uname>]; GRANT VIEW SERVER STATE TO [<uname>];'
+			SET @tsql = 'USE MASTER' + CHAR(13)
+			SET @tsql = @tsql + 'ALTER SERVER ROLE [<urolename>] ADD MEMBER [<uname>]; GRANT VIEW SERVER STATE TO [<uname>];'
 			SET  @tsql  = REPLACE(@tsql ,'<uname>',@SQLLoginName)
 			SET @tsql  = REPLACE(@tsql,'<urolename>',@RoleNameToGrant)
 			PRINT @tsql;

@@ -1,6 +1,5 @@
 /* 
 This script is designed to run against non-domain SQL servers used to create SQL Login accounts for:
--- SERVICE ACCOUNTS used by applications
 -- SQL LOGINS used by users
 You MUST set the 'role' below appropriately as the SQL password policies and permissions granted in the database depend upon the role assigned
 Service Accounts do not have the password policies turned on and are granted the db_owner role.  
@@ -30,7 +29,7 @@ DECLARE @enforcepasswordpolicy NVARCHAR(3) = 'ON'
 DECLARE @changepasswordpolicy NVARCHAR(15) = ' MUST_CHANGE'
 
 --Set the USE statement for the database in which the groups are to be created
-USE 
+USE []
 
 /* These next three items/variable values must be changed for each user to create and grant access*/
 --the @DMZSQLLoginName is the user's AD login name without the KFBDOM1 portion--example for the AD user KFBDOM1\XYZ1234, create a SQL Login named XYZ1234
@@ -107,7 +106,7 @@ BEGIN
 	IF PATINDEX('ProdSupport', @RoleName) > 0
 	BEGIN
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_datareader',0,0)
-	--INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_executor',0,0)
+	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_executor',0,0)
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_ddlviewer',0,0)
 	END
 
@@ -129,13 +128,15 @@ BEGIN
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_executor',0,0)
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_datawriter',0,0)
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_ddlviewer',0,0)
+	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_ddladmin',0,0)
 	END
 
-	IF PATINDEX('Integrator', @RoleName) > 0
+	IF PATINDEX('Integration', @RoleName) > 0
 	BEGIN
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_datareader',0,0)
-	--INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_executor',0,0)
+	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_executor',0,0)
 	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_ddlviewer',0,0)
+	INSERT INTO @dbrolestogrant (DMZSQLLoginName,ADrolename,dbrolename,SPIsprocessed, DBPIsProcessed) VALUES (@DMZSQLLoginName,@RoleName,'db_datawriter',0,0)
 	END
 	
 END
